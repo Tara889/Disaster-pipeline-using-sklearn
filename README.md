@@ -26,6 +26,17 @@ conda activate env-name
 
 pip install -r requirements.txt
 
+## Files and Data descriptions:
+
+1. process_data.py: 
+
+  This code extracts data from both CSV files messages.csv which contain message data and categories.csv which contain classes of messages and creates an merged and cleaned version of this data.
+  
+2. train_classifier.py: 
+
+  This code takes the database produced by process_data.py as an input and uses the data in it to train a ML model for categorizing messages. 
+  The output is a pickle file containing the fitted model. 
+  
 ## Application Installation Instructions:
 
 In a terminal navigate to the project directory udacity-disaster-response/ (that contains this README) and run commands in the following sequence:
@@ -35,17 +46,10 @@ In a terminal navigate to the project directory udacity-disaster-response/ (that
 3. python run.py
 
 Run the web application Go to http://0.0.0.0:3001/ (if facing problems try http://localhost:3001 in a browser)
-
-## File descriptions:
-
-1. Seattle Airbnb Dataset.ipynb -> Main jupyter notebook file(code)
-2. listings.csv -> Input data - Air Bnb Seattle listings data-set
-3. readme.md -> Instructions file
-
+  
 # Results:
 
 
 
-# Acknowledgement and Referemces:
-This data can be downloaded from https://www.kaggle.com/airbnb/seattle
+
 
