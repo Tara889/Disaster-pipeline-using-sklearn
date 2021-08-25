@@ -3,12 +3,7 @@
 ## Project Summary:
 
 This project is part of Udacity Data Science nanodegree program: Disaster Response Project.
-This project is used to build a model that classifies disaster messages. Using the web app an emergency worker can input a new message and get classification results in several categories, which helps in getting the idea ofwhat kind of help is needed. Example: "water", "shelter", "food", etc.
-
-The web app also displays visualizations of the data.
-
-Run the web application Go to http://0.0.0.0:3001/ (if facing problems try http://localhost:3001 in a browser)
-
+This project is used to build a model that classifies disaster messages. Using the web app an emergency worker can input a new message and get classification results in several categories, which helps in getting the idea ofwhat kind of help is needed. Example: "food", "shelter" etc.
 
 ## Installation Instructions:
 
@@ -39,15 +34,17 @@ pip install -r requirements.txt
   
 ## Application Installation Instructions:
 
-In a terminal navigate to the project directory udacity-disaster-response/ (that contains this README) and run commands in the following sequence:
+Navigate to the project directory udacity-disaster-response/ (that contains this README) and run commands in the following sequence:
 
 1. python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
 2. python train_classifier.py ../data/DisasterResponse.db classifier.pkl
 3. python run.py
 
-Run the web application Go to http://0.0.0.0:3001/ (if facing problems try http://localhost:3001 in a browser)
+Run the web application Go to http://0.0.0.0:3001/ (if facing problems try http://localhost:3001 in a local browser)
   
-# Results:
+## Results:
+
+![image](https://user-images.githubusercontent.com/87708828/130799265-4762c7ed-5282-4200-963f-ca1341c7728a.png)
 
 
 
