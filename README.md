@@ -1,5 +1,15 @@
 # Disaster-pipeline-using-sklearn
 
+## Project Summary:
+
+This project is part of Udacity Data Science nanodegree program: Disaster Response Project.
+This project is used to build a model that classifies disaster messages. Using the web app an emergency worker can input a new message and get classification results in several categories, which helps in getting the idea ofwhat kind of help is needed. Example: "water", "shelter", "food", etc.
+
+The web app also displays visualizations of the data.
+
+Run the web application Go to http://0.0.0.0:3001/ (if facing problems try http://localhost:3001 in a browser)
+
+
 ## Installation Instructions:
 
 1. Download / clone the repository to local using below command.
@@ -18,29 +28,13 @@ pip install -r requirements.txt
 
 ## Application Installation Instructions:
 
-1. Data Files
-  Run the data file by using the below command
-  
-  python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
-  
-2. Model Files 
+In a terminal navigate to the project directory udacity-disaster-response/ (that contains this README) and run commands in the following sequence:
 
-  Run the data file by using the below command
-  
-  python train_classifier.py ../data/DisasterResponse.db classifier.pkl
+1. python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
+2. python train_classifier.py ../data/DisasterResponse.db classifier.pkl
+3. python run.py
 
-3. App Files
-  
-  Run the app, by using command below.
-
-  phython run.py
-
-## Project motivation:
-
-This project is part of Udacity Data Science nanodegree program: Disaster Response Project.
-
-
-
+Run the web application Go to http://0.0.0.0:3001/ (if facing problems try http://localhost:3001 in a browser)
 
 ## File descriptions:
 
