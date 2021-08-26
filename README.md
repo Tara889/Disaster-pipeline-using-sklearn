@@ -34,10 +34,16 @@ pip install -r requirements.txt
   
 ## Application Installation Instructions:
 
-Navigate to the project directory udacity-disaster-response/ (that contains this README) and run commands in the following sequence:
+1. Run the below command
 
-1. python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
+ python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
+ 
+ once the command is executed you will find the file DiasasterResponse.db created and then run the next command below.
+ 
 2. python train_classifier.py ../data/DisasterResponse.db classifier.pkl
+
+once the above is executed your model are trained and build and next you can run the app by below command.
+
 3. python run.py
 
 Run the web application Go to http://0.0.0.0:3001/ (if facing problems try http://localhost:3001 in a local browser)
